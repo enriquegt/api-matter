@@ -1,7 +1,7 @@
 let emailUserSend = [];
 export default class API {
     feedbackRecived(id) {
-        fetch(`http://matter-app.herokuapp.com/api/v1/users/${id}/feedback-invitations`)
+        fetch(`https://matter-app.herokuapp.com/api/v1/users/${id}/feedback-invitations`)
         .then(response => response.json() ) 
         .then (json => printCards(json)) 
     }        

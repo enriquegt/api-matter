@@ -7,7 +7,7 @@ if (!questionId){
 
 export default class APIAnswer {
     skills(id) {
-        fetch(`http://matter-app.herokuapp.com/api/v1/invitations/${id}/feedback`)
+        fetch(`https://matter-app.herokuapp.com/api/v1/invitations/${id}/feedback`)
         .then(response => response.json() ) 
         .then (json => printCards(json))         
     }    

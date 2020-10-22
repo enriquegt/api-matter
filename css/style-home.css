@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter UI", sans-serif;
+}
+
+.nav {
+    background-color: rgb(52, 55, 153);
+    font-weight: bold;
+}
+
+.body {
+    background-color: rgb(206 206 206);
+}
+
+.greeting-card {
+    background-color: rgb(79 82 177);
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+}
+
+.feedbacks-card {
+    background-color: rgb(108 82 177);
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+}
+
+.feedbacks-card .text-black{
+    color: rgb(79 82 177);
+}
+
+.invitations-card {
+    background-color: rgb(162 113 243);
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.invitations-card .text-black{
+    color: rgb(79 82 177);
+    
+}
+
+.score-card {
+    background-color: rgb(125 84 243);
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.answer-card {
+    background-color: rgb(135 114 223);
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+
+#logo {
+    width: 50px;
+    margin-right: 30px;
+}
+
+#icon-greeting {
+    width: 20px;
+    margin-bottom: 0.5em;
+}
+
+.card-title {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.greeting-subtitle {
+    padding: 0%;
+    margin: 0%
+}
+
+.fb-received, .fb-given {
+    margin: 12px;
+}
+
+.card-body {
+    border-radius: 5px;
+}

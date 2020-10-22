@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matter</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="container text-center mt-5">
+        <h1>Edit User</h1>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 col-12 text-center">
+        <div class="card">
+          <div class="card-body">
+            <form id="new-user-form">
+              <div class="form-group">
+                <label for="name">New Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+                <label for="last-name">password</label>
+                <input type="text" class="form-control" id="pass" placeholder="password">
+              </div>
+              <button type="submit" class="btn btn-primary">Confirm</button>
+            </form>
+          </div>
+          <div> Return <a href="index.html">Logging</a> </div> 
+        </div>
+
+
+        <div class="col-md-12">
+          <div class="row" id="users-container">
+  
+          </div>
+      </div>
+
+      </div>
+  </div>
+  <script type="module" src="./js/editUser.js"></script>
+</body>
+</html>

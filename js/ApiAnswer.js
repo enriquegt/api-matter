@@ -3,7 +3,7 @@ const questionId = localStorage.getItem('answerId');
 
 export default class APIAnswer {
     skills() {
-        fetch(`http://matter-app.herokuapp.com/api/v1/skills`)
+        fetch(`https://matter-app.herokuapp.com/api/v1/skills`)
         .then(response => response.json() ) 
         .then (json => printCards(json))         
     }    
@@ -49,7 +49,7 @@ function searchEmail(email){
         }
 
 //answer feedback
-fetch(`http://matter-app.herokuapp.com/api/v1/skills`)
+fetch(`https://matter-app.herokuapp.com/api/v1/skills`)
         .then(response => response.json() ) 
         .then (json => score(json)) 
 

@@ -2,7 +2,7 @@ let emailUserSend = [];
 
 export default class APIShow {
     feedbackScore(id) {
-        fetch(`http://matter-app.herokuapp.com/api/v1/users/${id}/invitations`)
+        fetch(`https://matter-app.herokuapp.com/api/v1/users/${id}/invitations`)
         .then(response => response.json()) 
         .then (json => printCards(json)) 
     }        
